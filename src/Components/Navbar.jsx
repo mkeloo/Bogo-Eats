@@ -110,7 +110,7 @@ const Navbar = () => {
           className="cursor-pointer absolute right-4 top-4  mt-1"
         />
         <h2 className="text-3xl p-4 ">
-          <span className="font-serif font-semibold">BOGO</span>
+          <span className="font-serif font-semibold">BOGO </span>
           <span className="font-bold">Eats</span>
         </h2>
         <nav>
