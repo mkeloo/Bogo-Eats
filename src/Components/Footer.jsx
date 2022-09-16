@@ -56,6 +56,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="flex items-center pb-8 mt-12">
+          <h1 className="text-xl sm:text-xl  lg:text-2xl px-2 link link-underline link-underline-black ">
+            <span className="font-serif font-semibold">Made by </span>
+            <span className="font-extrabold ">Moksh Keloo</span>
+          </h1>
+        </div>
       </div>
     </div>
   );
