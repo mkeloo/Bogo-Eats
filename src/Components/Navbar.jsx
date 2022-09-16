@@ -9,7 +9,7 @@ import { BsFillCartFill, BsFillSaveFill } from 'react-icons/bs';
 import { TbTruckDelivery } from 'react-icons/tb';
 import { FaUserFriends, FaWallet } from 'react-icons/fa';
 import { MdFavorite, MdHelp } from 'react-icons/md';
-
+import '../index.css';
 const Navbar = () => {
   const sidebarList = [
     {
@@ -58,11 +58,11 @@ const Navbar = () => {
         <div onClick={() => setSidebar(!sidebar)} className="cursor-pointer">
           <AiOutlineMenu size={30} />
         </div>
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2">
-          <span className="font-serif font-semibold">BOGO</span>{' '}
-          <span className="font-bold">Eats</span>
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl px-2 link link-underline link-underline-black">
+          <span className="font-serif font-semibold">BOGO </span>
+          <span className="font-extrabold">Eats</span>
         </h1>
-        <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
+        <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px] ">
           <p className="bg-black text-white rounded-full p-2">Delivery</p>
           <p className="p-2">Pickup</p>
         </div>
@@ -109,8 +109,8 @@ const Navbar = () => {
           size={30}
           className="cursor-pointer absolute right-4 top-4  mt-1"
         />
-        <h2 className="text-3xl p-4">
-          <span className="font-serif font-semibold">BOGO</span>{' '}
+        <h2 className="text-3xl p-4 ">
+          <span className="font-serif font-semibold">BOGO</span>
           <span className="font-bold">Eats</span>
         </h2>
         <nav>
